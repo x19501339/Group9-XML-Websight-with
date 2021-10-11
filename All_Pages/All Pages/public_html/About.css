@@ -1,0 +1,157 @@
+.body {
+	overflow-x: hidden;
+}
+
+
+.grad1 {
+	background-color: #89cff0; 
+	background-image: linear-gradient(#89cff0, white);
+	z-index: -1;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+.dark-mode {
+  color: white;
+  background-color:#929292;
+}
+
+.box-parent {
+	height: 100%;
+}
+
+.header-parent {
+	display: block;
+	position: relative
+}
+
+.boxOne {
+    	width: 40%;
+	height: 200px;
+	margin-top: 5%;
+	margin-left: 4%;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.boxOne img {
+	margin-left: 15%;
+        margin-top: -7%;
+	height: 200px;
+	border-radius: 30px;
+	width: 60%;
+}
+
+.boxTwo {
+        margin-top: 7%;
+	height: 100px;
+	width: 50%;
+	position: relative;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.boxTwo h1 {
+        margin-top: -3%;
+	margin-left: 10%;
+        margin-bottom: 0%;
+	border-bottom: 3px solid black;
+	display: inline-block;
+}
+
+.boxTwo h2 {
+        margin-top: 0%;
+	left: 32%;
+        position: relative;
+}
+
+.boxTwo a {
+	color: black;
+	text-align: center;
+	margin: 4%;
+        margin-left: 8%;
+}
+
+.boxThree {
+	width: 35%;
+	height: 110px;
+	margin-top: 5%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	display: inline-block;
+}
+
+.boxThree h2 {
+	color: black;
+	text-align: center;
+}
+
+.boxFour {
+	height: 170px;
+	width: 97%;
+	margin: 2%;
+	margin-top: 13%;
+	position: relative;
+}
+
+.boxFour h6 {
+	font-family: Montserrat;
+}
+
+.col-sm-3 img {
+        margin-top: 10%;
+	height: 170px;
+	width: 60%;
+       
+}
+
+.col-sm-3 h4 {
+	margin-top: 5%;
+}
+
+.boxFive {
+	width: 25%;
+	height: 110px;
+	margin-top: 7%;
+	position: absolute;
+	left: 52%;
+	transform: translate(-50%, 0%);
+	display: inline-block;
+}
+
+.boxSix img {
+	height: 300px;
+	width: 27%;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
+
+.boxSeven {
+	height: 300px;
+	width: 33%;
+	margin-top: -23%;
+	margin-left: 55%;
+}
+
+.boxSeven h6 {
+	margin: 3%;
+	margin-top: 4%;
+}
+
+.boxEight {
+	height: 50px;
+	width: 100%;
+	margin-top: 5%;
+}
+
+.boxEight a {
+	margin: 46%;
+}
+

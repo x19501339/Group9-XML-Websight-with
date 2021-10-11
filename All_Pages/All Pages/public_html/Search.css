@@ -1,0 +1,103 @@
+.body{
+	overflow: hidden;
+}
+
+.grad1 {
+	background-color: #89cff0; 
+	background-image: linear-gradient(#89cff0, white);
+	z-index: -1;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+.dark-mode {
+  color: white;
+  background-color:#929292;
+}
+
+.box-parent {
+	height: 100%;
+}
+
+.header-parent {
+	display: block;
+	position: relative
+}
+
+.boxOne {
+    width: 40%;
+	height: 200px;
+	margin-top: 5%;
+	margin-left: 4%;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.boxOne img {
+	margin-left: 15%;
+    margin-top: -7%;
+	height: 200px;
+	border-radius: 30px;
+	width: 60%;
+}
+
+.boxTwo {
+    margin-top: 7%;
+	height: 100px;
+	width: 50%;
+	position: relative;
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.boxTwo h1 {
+    margin-top: -3%;
+	margin-left: 10%;
+    margin-bottom: 0%;
+	border-bottom: 3px solid black;
+	display: inline-block;
+}
+
+.boxTwo h2 {
+	margin-top: 0%;
+	left: 32%;
+    position: relative;
+}
+
+.boxTwo a {
+	color: black;
+	text-align: center;
+	margin: 4%;
+    margin-left: 8%;
+}
+
+#searchBar{
+	border: 1px solid #000000;
+	border-radius: 25px;
+	font-size: 16px;
+	padding: 10px;
+	width: 800px;
+	margin-left: 12%;
+	margin-top: 5%;
+}
+#Searchbtn{
+	border: 1px solid #000000;
+	border-radius: 25px;
+	font-size: 16px;
+	padding: 10px;
+	width: 100px;
+	background-color: yellow;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 5%;
+}
+
+#Searchbtn:hover{
+	background: lightblue;
+}
+

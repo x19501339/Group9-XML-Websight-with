@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+
+<product>
+    <room>
+        <category> Hotel Room </category>
+        <code> Room ID: 576-945 </code>  
+        <name> Single Room </name>   
+        <description> A standard single room featuring one single bed perfect for a single travller </description>
+        <quantity> 40 Available</quantity>
+        <unitPrice> 55 euro PN </unitPrice>   
+        
+        <category2> Hotel Room </category2>
+        <code2> Room ID: 356-324 </code2>  
+        <name2> Double Room </name2>   
+        <description2> A cozy double room perfect for couples, with all the extra leg room in the bed</description2>
+        <quantity2> 55 Available</quantity2>
+        <unitPrice2> 85 euro PN </unitPrice2> 
+        
+        <category3> Hotel Room </category3>
+        <code3> Room ID: 213-893 </code3>  
+        <name3> King Room </name3>   
+        <description3> A very spacious room with a very spacious bed for those who want comfort at a bargain</description3>
+        <quantity3> 3 Available</quantity3>
+        <unitPrice3> 115 euro PN </unitPrice3>  
+        
+        <category4> Hotel Room </category4>
+        <code4> Room ID: 435-934 </code4>  
+        <name4> Queen Room </name4>   
+        <description4> Very similar to the King Room, slightly smaller bed and slightly cheaper price</description4>
+        <quantity4> 6 Available</quantity4>
+        <unitPrice4> 100 euro PN </unitPrice4> 
+        
+        <category5> Hotel Room </category5>
+        <code5> Room ID: 326-835 </code5>  
+        <name5> Twin Room </name5>   
+        <description5> A standard room including two identical single beds, perfect for travelling friends</description5>
+        <quantity5> 12 Available</quantity5>
+        <unitPrice5> 75 euro PN </unitPrice5> 
+        
+        <category6> Hotel Room </category6>
+        <code6> Room ID: 252-046 </code6>  
+        <name6> Double Double Room </name6>   
+        <description6> A large room with two standard double beds, ideal for travelling with couples or large groups</description6>
+        <quantity6> 10 Available</quantity6>
+        <unitPrice6> 95 euro PN </unitPrice6> 
+        
+        <category7> Hotel Room </category7>
+        <code7> Room ID: 346-099 </code7>  
+        <name7> Studio Room </name7>   
+        <description7> A studio room with a fold out couch as well as an additional double bed, great for parties of 3</description7>
+        <quantity7> 3 Available</quantity7>
+        <unitPrice7> 90 euro PN </unitPrice7>
+        
+        <category8> Hotel Room </category8>
+        <code8> Room ID: 356-909 </code8>  
+        <name8> Junior Suite </name8>   
+        <description8> A single room with an open plan design, includes desk and living area, great for business trips</description8>
+        <quantity8> 5 Available</quantity8>
+        <unitPrice8> 120 euro PN </unitPrice8>
+        
+        <category9> Hotel Room </category9>
+        <code9> Room ID: 835-246 </code9>  
+        <name9> Top Floor Suite </name9>   
+        <description9> A large scale room designed with luxury in mind, situated on the top floor with an incredible view</description9>
+        <quantity9> 1 Available</quantity9>
+        <unitPrice9> 200 euro PN </unitPrice9> 
+        
+        <category10> Hotel Room </category10>
+        <code10> Room ID: 938-145 </code10>  
+        <name10> Executive Suite </name10>   
+        <description10> A luxurious suite, with balcony access and a large master bedroom and smaller double room, perfect for short fancy stays</description10>
+        <quantity10> 1 Available</quantity10>
+        <unitPrice10> 250 euro PN </unitPrice10>
+        
+          
+        
+        
+        
+        
+        
+    </room>    
+</product>
+
+
+
+

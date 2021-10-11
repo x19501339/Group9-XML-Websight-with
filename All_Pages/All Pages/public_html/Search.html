@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <title>Habitual Hotel - Search</title>
+            <link rel="stylesheet" href="Search.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+			<script src="search.js"> </script>
+		
+		</head>
+		
+        <body>
+		 <div class="grad1"> 
+                <div class="box-parent">
+                    <div class="header-parent">
+
+
+                        <div class="boxOne"> 
+                            <img src="hotel.png" alt="hotel"/>
+                        </div>
+
+                        <div class="boxTwo">
+                            <h1> Uniting The Body & Soul</h1>
+                            <h2> Since 2003 </h2>
+
+                            <nav>
+                                <a href="products.html"> Home</a>
+                                <a href="About.html"> About Us</a>
+                                <a href="Contact.html"> Contact Us </a>
+                                <a href="OurMission.html"> Our Mission </a>
+                            </nav>
+                        </div>
+                    </div>
+		
+		 <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+li{
+    width: 50%;
+    
+}
+
+#myInput {
+ 
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+    </head>
+    <body>
+        <h2>My Search Bar</h2>
+        
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for room using Ids.." title="Type in a Room Id">
+
+<ul id="myUL">
+  <li><a href="#">576-945, Room type: Single, Description: A standard single room featuring one single bed perfect for a single traveler, 40 Available, 55 Euro PN</a></li>
+  <li><a href="#">356-324, Room type: Double, Description: A cozy double room perfect for couples, with all the extra leg room in the bed, 55 Available, 85 Euro PN</a></li>
+  <li><a href="#">213-893, Room type: King, Description: A very spacious room with a very spacious bed for those who want comfort at a bargain, 3 Available, 155 Euro PN</a></li>
+  <li><a href="#">435-934, Room type: Queen, Description: Very similar to the King Room, slightly smaller bed and slightly cheaper price, 6 Available, 100 Euro PN</a></li>
+  <li><a href="#">326-835, Room type: Twin, Description: A standard room including two identical single beds, perfect for travelling friends, 12 Available, 75 Euro PN</a></li>
+  <li><a href="#">252-046, Room type: Double Double, Description: A large room with two standard double beds, ideal for travelling with couples or large groups, 10 Available, 95 Euro PN</a></li>
+  <li><a href="#">346-099, Room type: Studio, Description: A studio room with a fold out couch as well as an additional double bed, great for parties of 3, 3 Available, 90 Euro PN</a></li>
+  <li><a href="#">356-909, Room type: Junior Suite, Description: A single room with an open plan design, includes desk and living area, great for business trips, 5 Available, 120 Euro PN</a></li>
+  <li><a href="#">835-246, Room type: Top Floor Suite, Description: A large scale room designed with luxury in mind, situated on the top floor with an incredible view, 1 Available, 200 Euro PN</a></li>
+  <li><a href="#">938-145, Room type: Executive suite, Description: A luxurious suite, with balcony access and a large master bedroom and smaller double room, perfect for short fancy stays, 1 Available, 250 Euro PN</a></li>
+  
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+   
+			
+		</body>
+		
+	</html>

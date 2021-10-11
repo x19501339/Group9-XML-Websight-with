@@ -1,0 +1,120 @@
+.grad1 {
+	background-color: #89cff0; 
+	background-image: linear-gradient(#89cff0, white);
+	z-index: -1;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Montserrat;
+	overflow-x: hidden;
+}
+
+
+.boxOne {
+	width: 15%;
+	height: 200px;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+
+.boxOne img {
+	width: 85%;
+	height: 165px;
+}
+
+.boxTwo {
+	margin: auto;
+	width: 34%;
+	height: 300px;
+	margin-top: -20%;
+}
+
+.boxTwo h1 {
+    margin-left: 14%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.boxTwo a {
+	color: black;
+	padding: 0px 15px 0 0;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.boxThree {
+	width: 15%;
+	height: 200px;
+	margin-top: -21%;
+	margin-left: 78%;
+}
+
+.boxThree img {
+	width: 85%;
+	height: 165px;
+	margin-top: 10%;
+}
+
+.boxFour {
+	height: 210px;
+	width: 65%;
+	margin: auto;
+}
+
+.boxFour h5 {
+	margin-top: 4%;
+}
+
+.boxFive {
+	width: 30%;
+	height: 150px;
+	margin: 0 auto; 
+}
+
+.boxFive h2 {
+	color: black;
+	text-align: center;
+	margin-top: 12%;
+}
+
+.col-sm-3 img {
+	margin-top: 10%;
+	height: 100px;
+	width: 35%;
+}
+
+.col-sm-3 h4 {
+	margin-top: 5%;
+}
+
+.col-sm-3 h5 {
+	margin-bottom: 25%;
+}
+
+.boxSix {
+	width: 30%;
+	height: 150px;
+	margin: 0 auto; 
+}
+
+.boxSix h2 {
+	color: black;
+	text-align: center;
+	margin-top: 9%;
+}
+
+.row {
+    margin-left: 2%;
+}
+
+.boxEight {
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.boxEight a {
+	margin: 46%;
+}
+
